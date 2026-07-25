@@ -7,7 +7,7 @@ uv --version
 
 ## 
 sudo apt remove python3-typing-extensions python3-yaml -y 
-pip install --pre harbor  --break-system-packages --user --ignore-installed pyjwt 
+pip install  harbor  --break-system-packages --user --ignore-installed pyjwt 
 
 harbor --version
 harbor run --help
