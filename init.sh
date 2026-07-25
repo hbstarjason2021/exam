@@ -6,8 +6,11 @@ source $HOME/.local/bin/env
 uv --version 
 
 ## 
-sudo apt remove python3-typing-extensions python3-yaml -y 
-pip install  harbor  --break-system-packages --user --ignore-installed pyjwt 
+#sudo apt remove python3-typing-extensions python3-yaml -y 
+#pip install  harbor  --break-system-packages --user --ignore-installed pyjwt 
+
+## 
+uv tool install harbor
 
 harbor --version
 harbor run --help
