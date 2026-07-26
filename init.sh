@@ -15,3 +15,9 @@ uv tool install harbor
 harbor --version
 harbor run --help
 
+
+chmod +x solution/solve.sh
+chmod +x tests/test.sh
+
+
+harbor run -p exam_task -a oracle
