@@ -5,7 +5,9 @@ ENV PYTHONUNBUFFERED=1
 
 WORKDIR /app
 
-COPY . /app
+COPY app/ /app/
+
+COPY data/ /app/
 
 RUN pip install --no-cache-dir pytest
 
